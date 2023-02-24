@@ -1,18 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmakusaBenriMap</title>
+    <!-- 1.CSSの読み込み -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- 自分で作ったCSS読み込み -->
     <link rel="stylesheet" href="./css/kanko.css">
-    <title>Document</title>
 </head>
 <body>
-    <h1>AmakusaBenriMap</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Amakusa便利Map</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          </form>
+        </div>
+      </div>
+    </nav>
 
-    <h2>うしぶか海彩館</h2>
+  
 
+    <h1 class="text-center m-5">うしぶか海彩館</h1>
+
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/kanban.JPG" class="d-block w-100" alt="海彩館の看板の写真です"
+            style="display: block; width: 100%; height: 80vh; object-fit: cover;">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/suisou.JPG" class="d-block w-100" alt="水槽の写真です"
+            style="display: block; width: 100%; height: 80vh; object-fit: cover;">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/tai.JPG" class="d-block w-100" alt="タイの写真です"
+            style="display: block; width: 100%; height: 80vh; object-fit: cover;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     
+    <!-- 2.JSの読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
