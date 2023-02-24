@@ -103,6 +103,11 @@ button.bg-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(45, 12, 123, 0.5);
 }
 
+iframe {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
 .list-group-item-primary {
     color: #04010b;
     background-color: #7f50ed;
